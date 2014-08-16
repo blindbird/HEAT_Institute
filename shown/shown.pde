@@ -18,7 +18,7 @@ void draw () {
   rotateY(y);
   rotateZ(z);
   stroke(255);
-  fill(125,20,191,255);
+  fill(125,100,191,255);
   box(radius*2);
   
   pushMatrix();
@@ -66,19 +66,19 @@ void draw () {
   if (keyPressed) {
     if (key == CODED) {
        if (keyCode == RIGHT) {
-         y+=PI/16;
+         y+=PI/32;
        } else if (keyCode == LEFT) {
-         y-=PI/16;
+         y-=PI/32;
        }
        if (keyCode == UP) {
-         x-=PI/16;
+         x-=PI/32;
        } else if (keyCode == DOWN) {
-         x+=PI/16;
+         x+=PI/32;
        }
        if (key == 'd') {
-         z+=PI/8;
+         z+=PI/32;
        } else if (key == 'a') {
-         z-=PI/8;
+         z-=PI/32;
        }
      }
    }
