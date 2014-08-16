@@ -75,11 +75,11 @@ void draw () {
        } else if (keyCode == DOWN) {
          x+=PI/32;
        }
-       if (key == 'd') {
-         z+=PI/32;
-       } else if (key == 'a') {
-         z-=PI/32;
-       }
+     }
+     if (key == 'd') {
+       z+=PI/32;
+     } else if (key == 'a') {
+       z-=PI/32;
      }
    }
   
