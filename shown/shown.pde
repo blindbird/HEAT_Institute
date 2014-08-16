@@ -18,12 +18,12 @@ void draw () {
   rotateY(y);
   rotateZ(z);
   stroke(255);
-  fill(125,100,191,255);
+  fill(125,20,191,255);
   box(radius*2);
   
   pushMatrix();
   translate(-35,10,radius+20);
-  fill(0);
+  fill(255,255,0);
   textSize(32);
   text(word[0],0,0);
   popMatrix();
